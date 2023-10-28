@@ -1,0 +1,36 @@
+/* CSS for circular icons */
+.circular-icon {
+  width: 40px; /* Adjust the size as needed */
+  height: 40px; /* Adjust the size as needed */
+  background-color: rgb(250, 250, 250); /* Background color for the circle */
+  border-radius: 50%; /* Makes the element a circle */
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 3px; /* Adjust the margin as needed to space them out */
+  font-size: 18px; /* Adjust the font size */
+  cursor: pointer;
+  border: 2px solid rgb(237, 237, 237);
+}
+
+.circular-icon:hover {
+  background-color: red; /* Background color becomes red on hover */
+  border-color: red; /* Border becomes red on hover */
+  color: rgb(250, 250, 250); /* Icon becomes white on hover */
+}
+
+.nopadmar {
+  margin: 0;
+  padding: 0;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 8px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}

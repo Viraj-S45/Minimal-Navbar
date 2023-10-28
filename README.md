@@ -1,3 +1,3 @@
 # Minimal-Navbar
 
-[https://i.imgur.com/qdpvK2j.png]
+![navbars preivew](https://i.imgur.com/qdpvK2j.png)

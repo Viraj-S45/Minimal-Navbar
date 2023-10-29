@@ -9,14 +9,15 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./class.css" />
+    <link rel="stylesheet" href="./css/class.css" />
+    <link rel="stylesheet" href="./css/responsive.css">
 
     <title>Minimal Navbar</title>
   </head>
   <body>
     <div class="navbar">
       <div class="row1">
-        <div class="social-icons">
+        <div class="social-icons hide-fold">
           <div class="circular-icon">
             <i class="bx bxl-facebook"></i>
           </div>
@@ -32,7 +33,8 @@
           </div>
         </div>
         <div class="title">LOGISTICA</div>
-        <div class="search-bar">
+        <div class="search-bar hide-mob">
+          
           <input id="search-input" type="text" placeholder="Search" />
           <div class="search-icon"><i class="bx bx-search"></i></div>
         </div>
@@ -52,7 +54,7 @@
             </li>
             <li><a class="border-bottom-red" href="#">WORK</a></li>
             <li><a class="border-bottom-red" href="#">BLOG</a></li>
-            <li><a class="border-bottom-red" href="#">CONTACT</a></li>
+            <li><a class="border-bottom-red hide-fold" href="#">CONTACT</a></li>
           </ul>
         </nav>
       </div>

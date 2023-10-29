@@ -1,0 +1,51 @@
+/* responsive.css */
+
+/* Hide the hamburger menu by default for screens wider than 768px */
+@media screen and (max-width: 767px) {
+    * {
+  box-sizing: border-box;
+}
+  .mobile-menu {
+    display: none;
+  }
+  .hide-mob {
+      display: none;
+  }
+  nav ul li {
+  display: inline;
+  margin: 0 5px;
+  position: relative;
+}
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 280px) {
+    * {
+  box-sizing: border-box;
+}
+  .mobile-menu {
+    display: none;
+  }
+  .hide-fold {
+      display: none;
+  }
+  nav ul li {
+  display: inline;
+  margin: 0 5px;
+  position: relative;
+}
+
+ .row1 {
+    justify-content: center; /* Center items horizontally */
+  }
+  /* Initially hide the dropdown content */
+
+}
+
+

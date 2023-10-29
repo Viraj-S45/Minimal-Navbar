@@ -10,3 +10,4 @@ window.addEventListener("scroll", function () {
     row2.classList.remove("sticky");
   }
 });
+
